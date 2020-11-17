@@ -3,11 +3,9 @@ const Home = () => {
     <>
       <h1>Next Boilerplate</h1>
       <ul>
-        <li>Typescript</li>
-      </ul>
-      <ul>
-        <li>hello</li>
-        <li>World</li>
+        <li>Language..: Typescript</li>
+        <li>Code sintax and format..: Eslint/Prettier</li>
+        <li>Hook before commit: Husky & Lint Staged</li>
       </ul>
     </>
   )
