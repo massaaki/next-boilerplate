@@ -1,6 +1,9 @@
 import * as S from './styles'
 
-const Main = () => {
+const Main = ({
+  title = 'Next Boilerplate',
+  description = 'Typescript - Eslint/Prettier - Husky - Lint Staged - Jest'
+}) => {
   return (
     <S.Wrapper>
       <S.Logo
@@ -8,10 +11,8 @@ const Main = () => {
         alt="Imagem de um átomo e React Avançado escrito ao lado."
       />
 
-      <S.Title>Next Boilerplate</S.Title>
-      <S.Description>
-        Typescript - Eslint/Prettier - Husky - Lint Staged - Jest
-      </S.Description>
+      <S.Title>{title}</S.Title>
+      <S.Description>{description}</S.Description>
 
       <S.Illustraiton src="/img/hero-illustration.svg" />
     </S.Wrapper>
