@@ -1,7 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<h1>
-  Next Boilerplate
-</h1>
+<main
+  class="styles__Wrapper-gFJSv jXvfKY"
+>
+  <img
+    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    class="styles__Logo-bRSJPP iPmcTA"
+    src="/img/logo-next.svg"
+  />
+  <h1
+    class="styles__Title-cLnMKw jvQMkl"
+  >
+    Next Boilerplate
+  </h1>
+  <h2
+    class="styles__Description-emvDpe ixJVNE"
+  >
+    Typescript - Eslint/Prettier - Husky - Lint Staged - Jest
+  </h2>
+  <img
+    class="styles__Illustraiton-ljzJfE jVVEpk"
+    src="/img/hero-illustration.svg"
+  />
+</main>
 `;
