@@ -1,8 +1,7 @@
-[Next.js](https://nextjs.org/) is a front-end web bolerplate thinking about performance, SEO and organization when you have a project with lots of line of code.
-
+[Next.js](https://nextjs.org/)
+Front-end web boilerplate to provide performance, SEO and organization when you have a project with lots of line of code.
 
 ## What is inside?
-This project uses lot of stuff to provide performance to developer when you have a lot of lines of code
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
